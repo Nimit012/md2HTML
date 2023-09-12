@@ -1,0 +1,940 @@
+/* Montserrat Font */
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url('../fonts/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url('../fonts/Montserrat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Noto-Sans */
+@font-face {
+    font-family: 'Noto-Sans-Thin';
+    src: url('../fonts/NotoSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto-Sans-ExtraLight';
+    src: url('../fonts/NotoSans-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto-Sans-Light';
+    src: url('../fonts/NotoSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto-Sans-Regular';
+    src: url('../fonts/NotoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto-Sans-Medium';
+    src: url('../fonts/NotoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto-Sans-SemiBold';
+    src: url('../fonts/NotoSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto-Sans-Bold';
+    src: url('../fonts/NotoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto-Sans-Black';
+    src: url('../fonts/NotoSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+/* Roboto FontFace */
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Roboto Slab */
+@font-face {
+    font-family: 'RobotoSlab-Thin';
+    src: url('../fonts/RobotoSlab-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-ExtraLight';
+    src: url('../fonts/RobotoSlab-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Light';
+    src: url('../fonts/RobotoSlab-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Regular';
+    src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Medium';
+    src: url('../fonts/RobotoSlab-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-SemiBold';
+    src: url('../fonts/RobotoSlab-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Bold';
+    src: url('../fonts/RobotoSlab-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LilyScriptOne-Regular';
+    src: url('../fonts/LilyScriptOne-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-ExtraBold';
+    src: url('../fonts/RobotoSlab-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Black';
+    src: url('../fonts/RobotoSlab-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* viga-regular */
+
+@font-face {
+    font-family: 'Viga-Regular';
+    src: url('../fonts/Viga-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* PT_Serif-Regular */
+@font-face {
+    font-family: 'PT_Serif-Regular';
+    src: url('../fonts/PT_Serif-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Roboto Condensed */
+
+@font-face {
+    font-family: 'RobotoCondensed-Light';
+    src: url('../fonts/RobotoCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: url('../fonts/RobotoCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Oswald Font */
+@font-face {
+    font-family: 'Oswald-ExtraLight';
+    src: url('../fonts/Oswald-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald-Light';
+    src: url('../fonts/Oswald-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url('../fonts/Oswald-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald-SemiBold';
+    src: url('../fonts/Oswald-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url('../fonts/Oswald-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Jaldi Font  */
+@font-face {
+    font-family: 'Jaldi-Regular';
+    src: url('../fonts/Jaldi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaldi-Bold';
+    src: url('../fonts/Jaldi-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Corben Font */
+
+@font-face {
+    font-family: 'Corben';
+    src: url('../fonts/Corben-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Angkor-Regular';
+    src: url('../fonts/Angkor-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Kaushan Script Font */
+@font-face {
+    font-family: 'Kaushan-Script';
+    src: url('../fonts/KaushanScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Angkor-Regular';
+    src: url('../fonts/Angkor-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "Caveat-Bold";
+    src: url("../fonts/Caveat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-Mediumitalic";
+    src: url("../fonts/Ubuntu-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url("../fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Barlow-Black";
+    src: url("../fonts/Barlow-Black.ttf");
+}
+
+@font-face {
+    font-family: "PT_Serif-Regular";
+    src: url("../fonts/PT_Serif-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PT_Serif-Bold";
+    src: url("../fonts/PTSerif-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: "Armata-Regular";
+    src: url("../fonts/Armata-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('../fonts/Rokkitt-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rokkitt-Bold';
+    src: url('../fonts/Rokkitt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rokkitt-Light';
+    src: url('../fonts/Rokkitt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rokkitt-Black';
+    src: url('../fonts/Rokkitt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rokkitt-Medium';
+    src: url('../fonts/Rokkitt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rokkitt-Regular';
+    src: url('../fonts/Rokkitt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rokkitt-SemiBold';
+    src: url('../fonts/Rokkitt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Convergence';
+    src: url('../fonts/Convergence-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaveatBrush-Regular';
+    src: url('../fonts/CaveatBrush-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* brush script */
+@font-face {
+    font-family: 'Cookie-Regular';
+    src: url('../fonts/Cookie-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Courgette-regular */
+
+@font-face {
+    font-family: 'Courgette-Regular';
+    src: url('../fonts/Courgette-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* Amaranth-Bold */
+
+@font-face {
+    font-family: 'Amaranth-Bold';
+    src: url('../fonts/Amaranth-Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*overlock black*/
+@font-face {
+    font-family: 'Overlock-black';
+    src: url('../fonts/Overlock-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.PlutoCondensed-Bold {
+    font-family: "Amaranth-Bold";
+}
+
+/* +++++++++++++++++++++++++++++++
+         Font Classes
+  +++++++++++++++++++++++++++++++ */
+
+
+.NeoSans-Regular {
+    font-family: "Armata-Regular";
+}
+
+.GillSans-Bold {
+    font-family: "Ubuntu-Bold";
+}
+
+.GillSans-Mediumitalic {
+    font-family: "Ubuntu-Mediumitalic";
+}
+
+.GillSans-Medium {
+    font-family: "Ubuntu-Medium";
+}
+
+.Dinot-Black {
+    font-family: "Barlow-Black";
+}
+
+.StoneInformal-Regular {
+    font-family: "PT_Serif-Regular";
+}
+
+.StoneInformal-Bold {
+    font-family: "PT_Serif-Bold";
+}
+
+.AshleyScript-Bold {
+    font-family: "Caveat-Bold";
+}
+
+
+
+/* ++++++++++++++++++++++++++++++
+    Avenir -> Montserrat
++++++++++++++++++++++++++++++++++ */
+.Avenir-Thin {
+    font-family: 'Montserrat-Thin';
+}
+
+.Avenir-ExtraLight {
+    font-family: 'Montserrat-ExtraLight';
+}
+
+.Avenir-Light {
+    font-family: 'Montserrat-Light';
+}
+
+.Avenir-Regular {
+    font-family: 'Montserrat-Regular';
+}
+
+
+.Avenir-Medium {
+    font-family: 'Montserrat-Medium';
+}
+
+.Avenir-SemiBold {
+    font-family: 'Montserrat-SemiBold';
+}
+
+.Avenir-Bold {
+    font-family: 'Montserrat-Bold';
+}
+
+.Avenir-Black {
+    font-family: 'Montserrat-Black';
+}
+
+.Avenir-ExtraBold {
+    font-family: 'Montserrat-ExtraBold';
+}
+
+/* ++++++++++++++++++++++++++++++
+    Pluto -> Noto Sans
++++++++++++++++++++++++++++++++++ */
+.Pluto-Thin,
+.Felbridge-Thin {
+    font-family: 'Noto-Sans-Thin';
+}
+
+.Pluto-ExtraLight,
+.Felbridge-ExtraLight {
+    font-family: 'Noto-Sans-ExtraLight';
+}
+
+.Pluto-Light,
+.Felbridge-Light {
+    font-family: 'Noto-Sans-Light';
+}
+
+.Pluto-Regular,
+.Felbridge-Regular {
+    font-family: 'Noto-Sans-Regular';
+}
+
+.Pluto-Medium,
+.Felbridge-Medium {
+    font-family: 'Noto-Sans-Medium';
+}
+
+.Pluto-SemiBold,
+.Felbridge-SemiBold {
+    font-family: 'Noto-Sans-SemiBold';
+}
+
+.Pluto-Bold,
+.Felbridge-Bold {
+    font-family: 'Noto-Sans-Bold';
+}
+
+.Pluto-Black,
+.Felbridge-Black {
+    font-family: 'Noto-Sans-Black';
+}
+
+/* ++++++++++++++++++++++++++++++
+   Ellington ->  PT_Serif-Regular
++++++++++++++++++++++++++++++++++ */
+.Ellington-Bold {
+    font-family: 'PT_Serif-Regular';
+
+}
+
+/* ++++++++++++++++++++++++++++++
+            Roboto
++++++++++++++++++++++++++++++++++ */
+.DINAlternate-Light,
+.GrenadineMVB-Light,
+.HelveticaRounded-Light {
+
+    font-family: 'Roboto-Light';
+}
+
+.DINAlternate-Regular,
+.GrenadineMVB-Regular,
+.HelveticaRounded-Regular {
+    font-family: 'Roboto-Regular';
+}
+
+.DINAlternate-Medium,
+.GrenadineMVB-Medium,
+.HelveticaRounded-Medium {
+    font-family: 'Roboto-Medium';
+}
+
+.DINAlternate-Bold,
+.GrenadineMVB-Bold,
+.HelveticaRounded-Bold {
+    font-family: 'Roboto-Bold';
+}
+
+.DINAlternate-Black,
+.GrenadineMVB-Black,
+.HelveticaRounded-Black {
+    font-family: 'Roboto-Black';
+}
+
+/* ++++++++++++++++++++++++++++++
+        Roboto Slab
++++++++++++++++++++++++++++++++++ */
+
+.RobotoSlab-Thin {
+    font-family: 'RobotoSlab-Thin';
+}
+
+.RobotoSlab-ExtraLight {
+    font-family: 'RobotoSlab-ExtraLight';
+}
+
+.RobotoSlab-Light {
+    font-family: 'RobotoSlab-Light';
+}
+
+.RobotoSlab-Regular {
+    font-family: 'RobotoSlab-Regular';
+}
+
+.RobotoSlab-Medium {
+    font-family: 'RobotoSlab-Medium';
+}
+
+.RobotoSlab-SemiBold {
+    font-family: 'RobotoSlab-SemiBold';
+}
+
+.RobotoSlab-Bold {
+    font-family: 'RobotoSlab-Bold';
+}
+
+.RobotoSlab-ExtraBold {
+    font-family: 'RobotoSlab-ExtraBold';
+}
+
+.RobotoSlab-Black {
+    font-family: 'RobotoSlab-Black';
+}
+
+
+/* ++++++++++++++++++++++++++++++
+        Roboto Condensed
++++++++++++++++++++++++++++++++++ */
+.HelveticaNeue-Light,
+.Univers-Light {
+    font-family: 'RobotoCondensed-Light';
+}
+
+.HelveticaNeue-Regular,
+.Univers-Regular {
+    font-family: 'RobotoCondensed-Regular';
+}
+
+.HelveticaNeue-Bold,
+.Univers-Bold {
+    font-family: 'RobotoCondensed-Bold';
+}
+
+/* ++++++++++++++++++++++++++++++
+            Oswald
++++++++++++++++++++++++++++++++++ */
+
+.DINEngschrift-ExtraLight,
+.AkzidenzGrotesk-ExtraLight {
+    font-family: 'Oswald-ExtraLight';
+}
+
+.DINEngschrift-Light,
+.AkzidenzGrotesk-Light {
+    font-family: 'Oswald-Light';
+}
+
+.DINEngschrift-Regular,
+.AkzidenzGrotesk-Regular {
+    font-family: 'Oswald-Regular';
+}
+
+.DINEngschrift-Medium,
+.AkzidenzGrotesk-Medium {
+    font-family: 'Oswald-Medium';
+}
+
+.DINEngschrift-SemiBold,
+.AkzidenzGrotesk-SemiBold {
+    font-family: 'Oswald-SemiBold';
+}
+
+.DINEngschrift-Bold,
+.AkzidenzGrotesk-Bold {
+    font-family: 'Oswald-Bold';
+}
+
+
+/* ++++++++++++++++++++++++++++++
+    memphis -> Rokkitt
++++++++++++++++++++++++++++++++++ */
+.Memphis-Light {
+    font-family: 'Rokkitt-Light';
+}
+
+.Memphis-Regular {
+    font-family: 'Rokkitt-Regular';
+}
+
+.Memphis-Medium {
+    font-family: 'Rokkitt-Medium';
+}
+
+.Memphis-SemiBold {
+    font-family: 'Rokkitt-SemiBold';
+}
+
+.Memphis-Bold {
+    font-family: 'Rokkitt-Bold';
+}
+
+.Memphis-ExtraBold {
+    font-family: 'Rokkitt-ExtraBold';
+}
+
+.Memphis-Black {
+    font-family: 'Rokkitt-Black';
+}
+
+/* ++++++++++++++++++++++++++++++
+    Catched -> Jaldi
++++++++++++++++++++++++++++++++++ */
+
+.Catched-Regular {
+    font-family: 'Jaldi-Regular';
+}
+
+.Catched-Bold {
+    font-family: 'Jaldi-Bold';
+}
+
+
+.Cooper {
+    font-family: 'Corben';
+}
+
+.Cooper-Bold {
+    font-family: 'Angkor-Regular';
+}
+
+/* Kaushan Script Font */
+.SpudBlack-Script {
+    font-family: 'Kaushan-Script';
+}
+
+
+.MyriadPro-Medium {
+    font-family: "Noto-Sans-Medium";
+}
+
+.MyriadPro-Light {
+    font-family: "Noto-Sans-Light";
+}
+
+.Folder-font {
+    font-family: 'Convergence';
+}
+
+.Calvert-Bold {
+    font-family: 'RobotoSlab-Bold';
+
+}
+
+.ScriptMT-Bold {
+
+    font-family: 'LilyScriptOne-Regular';
+}
+
+.RuzickaFreeHand-Bold {
+    font-family: 'Courgette-Regular';
+}
+
+.Dom-casual {
+    font-family: 'CaveatBrush-Regular';
+}
+
+.HumanaSans-Bold {
+    font-family: 'Viga-Regular';
+}
+
+.RockwellStd-Bold {
+    font-family: 'Angkor-Regular';
+}
+
+.HumanaSana-Black {
+    font-family: 'Overlock-black';
+
+}
+
+.Brush-Script {
+    font-family: 'Cookie-Regular';
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Add relative path of the book css file -->
+    <link href="../../../css/book.css" rel="stylesheet" />
+    <!-- Add relative path of the unit.css file -->
+    <link href="../../unit-2/css/unit.css" rel="stylesheet" />
+    <!-- Add relative path of the page css file -->
+    <link href="./css/page.css" rel="stylesheet">
+    <!-- Add meta tag to support responsive behavior -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Declaring the character encoding -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <article data-page-num="2" class="page02" tabindex="0" aria-label="Reading Area" lang="en">
+
+        <header class="header header-left"><strong>336</strong> • M icrosoft E xcEl functions and forMulas , 6/E </header>
+
+        <p class="section-content"><em>For older versions of Excel you will still need to press CSE when entering array formulas.</em> </p>
+        <p class="section-content">Also note, that for any Dynamic Array Formula, when you click outside the original cell that creates the
+            array, you will not be able to adjust it. If you enter another value anywhere in the output range it will
+            clear out the resulting array. This will make more sense later as you enter the formula examples for
+            yourself. </p>
+        <h2 class="section-heading">USE THE ADDRESS, MAX, AND ROW
+            FUNCTIONS TO DETERMINE THE LAST CELL USED</h2>
+        <p class="section-content"> With this tip, we learn the definition of an array formula. Here, we want to determine the last cell used in
+            a range and shade it. Combine the ADDRESS, MAX, and ROW functions as described below to get the desired
+            result. </p>
+        <details>
+            <summary>To determine the last cell used in a range and shade it: </summary>
+        </details>
+        <ol>
+            <li>
+                <p>In column A, list any kind of numbers. </p>
+            </li>
+            <li>
+                <p>Select cell B2 and type the following array formula: <strong>=ADDRESS</strong>
+                    <strong>(MAX((A2:A100&lt;&gt;&quot;&quot;)∗ROW(A2:A100)),1)</strong>. </p>
+            </li>
+            <li>
+                <p>Press &lt; <strong>Enter</strong> &gt;. </p>
+            </li>
+            <li>
+                <p>Select cells A2:A11. </p>
+            </li>
+            <li>
+                <p>From the <strong>Home</strong> tab, go to the <strong>Styles</strong> bar and click on
+                    <strong>Conditional</strong> <strong>Formatting</strong>. </p>
+            </li>
+            <li>
+                <p>Choose <strong>New Rule</strong>. </p>
+            </li>
+            <li>
+                <p>In the <strong>Select a Rule Type</strong> dialog, select <strong>Use a formula to deter-</strong>
+                    <strong>mine which cells to format</strong>. </p>
+            </li>
+            <li>
+                <p>In the <strong>Edit</strong> box, type the following formula:
+                    <strong>=ADDRESS(ROW(),1)=$B$2</strong>. </p>
+            </li>
+            <li>
+                <p>Click <strong>Format,</strong> select a color from the <strong>Fill</strong> tab, and click
+                    <strong>OK</strong>. </p>
+            </li>
+            <li>
+                <p>Click <strong>OK</strong>. </p>
+            </li>
+        </ol>
+
+
+    </article>
+</body>
+
+</html>

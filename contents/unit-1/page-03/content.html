@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Add relative path of the book css file -->
+    <link href="../../../css/book.css" rel="stylesheet" />
+    <!-- Add relative path of the unit.css file -->
+    <link href="../../unit-2/css/unit.css" rel="stylesheet" />
+    <!-- Add relative path of the page css file -->
+    <link href="./css/page.css" rel="stylesheet">
+    <!-- Add meta tag to support responsive behavior -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Declaring the character encoding -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <article data-page-num="3" class="page03" tabindex="0" aria-label="Reading Area" lang="en">
+        <header class="header header-right"> Working With dynamic array formulas • <strong>337</strong> </header>
+
+        <section class="note-section">
+            <span class="note">
+                <strong>
+                    Note
+                </strong>
+            </span>
+            <p class="note-text"> <em>Use a dynamic array formula to perform several calculations to generate a single
+                    result or
+                    multiple results.</em></p>
+        </section>
+
+        <figure>
+            <img src="../../../images/img-page3.webp" alt="">
+            <figcaption> FIGURE 11–1 </figcaption>
+        </figure>
+
+        <h2 class="section-heading">USE THE INDEX,
+            MAX, ISNUMBER, AND ROW FUNCTIONS TO FIND THE LAST NUMBER IN A COLUMN</h2>
+        <p class="section-content"> Use the table from the previous tip and continue with array formulas. Now we want to
+            determine the
+            last value in column A. Use a combination of the INDEX, MAX, ISNUMBER, and ROW functions inside an
+            array formula to have the desired result displayed in cell B2. </p>
+
+        <details>
+            <summary>
+                To determine the last number in a column:
+            </summary>
+        </details>
+        <ol>
+            <li>
+                <p>In column A, list values or use the table from the previous tip. </p>
+            </li>
+            <li>
+                <p>Select cell B2 and type the following array formula:
+                    <strong> =INDEX(A:A,MAX(ISNUMBER(A1:A1000)∗ROW(A1:A1000)))</strong>
+                </p>
+            </li>
+            <li>
+                <p>Press &lt;Enter&gt;.</p>
+            </li>
+        </ol>
+    </article>
+</body>
+
+</html>
